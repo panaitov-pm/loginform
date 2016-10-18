@@ -103,6 +103,25 @@ label[for="remember"] {
 }
 
 .submit {
+<<<<<<< HEAD
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	margin-top: 15px;
+	margin-right: 115px;
+	margin-bottom: 15px;
+	width: 101px;
+	height: 40px;
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	background-color: #b7b7b7;
+	background-image: linear-gradient(to top, #427ec7 0%, #427ec7 16%, #518ee2 64%, #518ee2 100%);
+	border-radius: 6px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+	color: #fff;
+	cursor: pointer;
+=======
     display: inline-block;
     overflow: hidden;
     position: relative;
@@ -119,6 +138,7 @@ label[for="remember"] {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
     color: black;
     cursor: pointer;
+>>>>>>> 70db85d4df9ac86529d35e7af9e919e93779af33
 }
 
 .submit span {

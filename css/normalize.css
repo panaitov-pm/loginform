@@ -159,8 +159,9 @@ dfn {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
-  font-size: 2em;
+h1,
+h2 {
+  font-size: 1em;
   margin: 0;
 }
 
