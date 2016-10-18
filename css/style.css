@@ -28,7 +28,7 @@ body {
     background: url(../img/weather.png) repeat;
     font-family: 'OpenSans', sans-serif;
     font-size: 12px;
-    color: #efefef;
+    color: #333333;
 }
 
 .container {
