@@ -10,7 +10,8 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Droid+Sans:300,400,700" rel="stylesheet">
 
-	<link rel="stylesheet" href="css/4.1.1/normalize.css" type="text/css" />
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<!-- For IE9 and later -->
 	<!--[if lte IE 9]>
@@ -23,15 +24,16 @@
 <body>
 	<!-- BEGIN wrap  -->
 	<div class="container">
-		<h1 class="title">Login</h1>
-		<h1 class="Second title">Login</h1>
+		<h1 class="title"><i class="fa fa-users" aria-hidden="true"></i> Sign Up</h1>
 		<p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex doloribus nobis odio </p>
 		<form action="#">
-			<label for="email">Email:</label><input id="email" type="text" name="email" value="psdgraphics"><br>
-			<label for="pass">Password:</label><input id="pass" name="pass" type="password" value="11111111111"><br>
+			<button class="submit" type="submit"><span>Login <i class="fa fa-chevron-right" aria-hidden="true"></i></span></button><br>
+			<label for="username"><i class="fa fa-user" aria-hidden="true"></i> Userame:</label><input id="username" type="text" name="username" value="Username"><br>
+			<label for="tel"><i class="fa fa-phone" aria-hidden="true"></i> Tel. :</label><input id="telephone" type="text" name="telephone" value="Telephone"><br>
+			<label for="email"><i class="fa fa-envelope" aria-hidden="true"></i> Email:</label><input id="email" type="text" name="email" value="psdgraphics"><br>
+			<label for="pass"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Password:</label><input id="pass" name="pass" type="password" value="11111111111"><br>
 			<input type="checkbox" id="remember" name="remember"><label for="remember">Remember me</label>
 			<a href="#">Forgot password?</a><br>
-			<button class="submit" type="submit"><span>Login</span></button>
 		</form>
 	</div>
 	<!-- END wrap -->
